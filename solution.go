@@ -28,3 +28,7 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 		return 0
 	}
 }
+
+func main() {
+	CalcSquare(2, 4)
+}
