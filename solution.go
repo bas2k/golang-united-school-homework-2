@@ -1,4 +1,4 @@
-package main
+package solution
 
 import "math"
 
@@ -30,5 +30,7 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 }
 
 func main() {
-	CalcSquare(2, 4)
+	CalcSquare(10.0, SidesTriangle)
+	CalcSquare(10.0, SidesSquare)
+	CalcSquare(10.0, SidesCircle)
 }
