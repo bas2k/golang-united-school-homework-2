@@ -11,9 +11,9 @@ type intCustomType int
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 const (
-	SidesCircle   = 0
-	SidesTriangle = 3
-	SidesSquare   = 4
+	SidesCircle   intCustomType = 0
+	SidesTriangle intCustomType = 3
+	SidesSquare   intCustomType = 4
 )
 
 func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
